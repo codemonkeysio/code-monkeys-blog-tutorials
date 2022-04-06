@@ -41,5 +41,6 @@ module.exports = {
         link: '/donate/'
       }
     ]
-  }
+  },
+  plugins: ['@goy/svg-icons']
 };

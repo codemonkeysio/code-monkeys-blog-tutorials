@@ -18,6 +18,7 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
+    "@goy/vuepress-plugin-svg-icons": "^4.2.3",
     "vuepress": "1.8.2"
   }
 }
