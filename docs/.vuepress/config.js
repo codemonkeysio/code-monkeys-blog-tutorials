@@ -8,7 +8,7 @@ module.exports = {
       {
         name: 'author',
         content: 'Jay the Code Monkey',
-      }
-    ]
-  ]
+      },
+    ],
+  ],
 }
