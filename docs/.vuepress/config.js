@@ -7,16 +7,16 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey'
-      }
-    ]
+        content: 'Jay the Code Monkey',
+      },
+    ],
   ],
   themeConfig: {
-    logo: '/images/code-monkeys-logos/face.png',
+    logo: '/images/code-monkeys-logos/code-monkeys-head-and-shoulders-logo.png',
     nav: [
       {
         text: 'Topics',
-        link: '/topics/'
+        link: '/topics/',
       },
       {
         text: 'Posts',
@@ -27,20 +27,20 @@ module.exports = {
             items: [
               { text: 'LeetCode', link: '/topics/LeetCode/' },
               { text: 'Node.js', link: '/topics/Node.js/' },
-              { text: 'VuePress', link: '/topics/VuePress/' }
-            ]
-          }
-        ]
+              { text: 'VuePress', link: '/topics/VuePress/' },
+            ],
+          },
+        ],
       },
       {
         text: 'Resources',
-        link: '/resources/'
+        link: '/resources/',
       },
       {
         text: 'Donate',
-        link: '/donate/'
-      }
-    ]
+        link: '/donate/',
+      },
+    ],
   },
-  plugins: ['@goy/svg-icons']
-};
+  plugins: ['@goy/svg-icons'],
+}
