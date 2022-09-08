@@ -71,6 +71,10 @@ export default {
     display: flex
     margin-bottom: 1.75rem
     font-size: 2rem
+    svg
+      fill: $textColor
+    svg:hover
+      fill: $accentColor
   .icons > a:not(:last-child)
     margin-right: 4.6875rem
   .made-by
