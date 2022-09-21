@@ -42,5 +42,22 @@ module.exports = {
       },
     ],
   },
-  plugins: ['@goy/svg-icons'],
+  plugins: [
+    '@goy/svg-icons',
+    [
+      '@vuepress/blog',
+      {
+        directories: [
+          {
+            id: 'posts',
+            dirname: '_posts',
+            path: '/posts/',
+            layout: 'IndexPost',
+            itemLayout: 'Post',
+            itemPermalink: '/:year/:month/:day/:slug',
+          },
+        ],
+      },
+    ],
+  ],
 }

@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@goy/vuepress-plugin-svg-icons": "^4.2.3",
+    "@vuepress/plugin-blog": "^1.9.4",
     "vuepress": "1.8.2"
   }
 }
