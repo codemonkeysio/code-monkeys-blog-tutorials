@@ -55,6 +55,12 @@ module.exports = {
             layout: 'IndexPost',
             itemLayout: 'Post',
             itemPermalink: '/:year/:month/:day/:slug',
+            pagination: {
+              lengthPerPage: 2,
+              layout: 'IndexPost',
+              prevText: 'Prev',
+              nextText: 'Next',
+            },
           },
         ],
       },
