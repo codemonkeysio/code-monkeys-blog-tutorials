@@ -1,7 +1,7 @@
 <template>
   <div class="theme-default-content">
-    <h1>The Scribblings of a Monkey!!! 📝🐒</h1>
-    <div :key="post.key" v-for="post in $pagination.pages">
+    <h1>The Scribblings of a Monkey!!!</h1>
+    <div v-for="post in $pagination.pages" :key="post.key">
       <div>
         <div>
           <h2>
