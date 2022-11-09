@@ -12,6 +12,12 @@
           {{ post.frontmatter.preview }}
         </p>
       </div>
+      <div>
+        <img
+          :src="`/images/${post.frontmatter.img}`"
+          :alt="post.frontmatter.alt || 'Post Picture'"
+        />
+      </div>
     </div>
   </div>
 </template>
