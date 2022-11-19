@@ -19,6 +19,18 @@
         />
       </div>
     </div>
+    <div>
+      <div>
+        <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">
+          Prev
+        </router-link>
+      </div>
+      <div>
+        <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">
+          Next
+        </router-link>
+      </div>
+    </div>
   </div>
 </template>
 
