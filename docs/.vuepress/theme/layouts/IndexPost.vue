@@ -19,15 +19,15 @@
         />
       </div>
     </div>
-    <div>
+    <div class="pagination">
       <div>
         <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">
-          Prev
+          <vp-icon name="leftArrow" class="left-arrow"></vp-icon>Prev
         </router-link>
       </div>
       <div>
         <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">
-          Next
+          Next<vp-icon name="rightArrow" class="right-arrow"></vp-icon>
         </router-link>
       </div>
     </div>
@@ -40,4 +40,13 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="stylus" scoped>
+.pagination
+  display: flex
+  justify-content: space-between
+  padding-top: 2rem
+  .left-arrow
+    padding-right: 0.25rem
+  .right-arrow
+    padding-left: 0.25rem
+</style>
