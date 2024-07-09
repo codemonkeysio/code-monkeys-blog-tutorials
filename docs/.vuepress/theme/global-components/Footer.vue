@@ -16,11 +16,11 @@
         <vp-icon name="YouTube"></vp-icon>
       </a>
       <a
-        href="https://discord.gg/mh9rQmwJ8H"
+        href="https://gab.com/codemonkeys"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="Discord"></vp-icon>
+        <vp-icon name="Gab"></vp-icon>
       </a>
       <a
         href="https://t.me/codemonkeystech"
@@ -37,18 +37,18 @@
         <vp-icon name="Twitter"></vp-icon>
       </a>
       <a
-        href="https://www.linkedin.com/in/jason-chiarulli/"
+        href="https://codemonkeys.tech/rss.xml"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="LinkedIn"></vp-icon>
+        <vp-icon name="RSS"></vp-icon>
       </a>
       <a
-        href="https://www.patreon.com/codemonkeys?fan_landing=true"
+        href="https://keybase.io/codemonkeystech"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <vp-icon name="Patreon"></vp-icon>
+        <vp-icon name="Keybase"></vp-icon>
       </a>
     </div>
     <p class="made-by">Made by & for Code Monkeys 🐵</p>
