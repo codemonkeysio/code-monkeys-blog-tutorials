@@ -1,6 +1,2 @@
 github: [codemonkeysio, jchiarulli]
-patreon: codemonkeys?fan_landing=true
-custom:
-  [
-    'https://www.subscribestar.com/code-monkeys',
-  ]
+custom: ["https://www.subscribestar.com/code-monkeys"]
