@@ -7,7 +7,7 @@ module.exports = {
       'meta',
       {
         name: 'author',
-        content: 'Jay the Code Monkey',
+        content: 'J the Code Monkey',
       },
     ],
   ],
