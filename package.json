@@ -4,7 +4,7 @@
   "description": "Learn VuePress and how to create the Code Monkeys Blog by following along with these tutorials!",
   "main": "index.js",
   "repository": "https://github.com/codemonkeysio/code-monkeys-blog-tutorials.git",
-  "author": "Jay the Code Monkey",
+  "author": "J the Code Monkey",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "docs:dev": "vuepress dev docs",
